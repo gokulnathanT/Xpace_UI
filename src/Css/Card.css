@@ -1,0 +1,28 @@
+
+.circle, .circle::before {
+    content: " ";
+    margin: 10px;
+    width: 11px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: all 0.3s;
+    background-color: #FF0055;
+  }
+  
+  .circle::before {
+    animation: mymove 2s infinite;
+    position: absolute;
+    background-color: #FF0055
+  }
+  
+  @-webkit-keyframes mymove {
+    50%   {
+      transform: scale(2);
+      opacity: 0
+    }
+    100%   {
+      transform: scale(2);
+      opacity: 0
+    }
+  }
