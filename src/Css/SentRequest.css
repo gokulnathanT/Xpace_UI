@@ -1,0 +1,88 @@
+.sent-request-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 2rem;
+  justify-content: center;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.sent-request-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  width: 320px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.sent-request-card:hover {
+  transform: translateY(-5px);
+}
+
+.sent-request-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.request-id {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.badge.sender {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.sent-request-body p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.sent-request-body p strong {
+  color: #555;
+}
+
+.sent-request-footer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn.revert {
+  background-color: #ffe0e0;
+  color: #a50000;
+}
+
+.btn.revert:hover {
+  background-color: #ffbcbc;
+}
+
+.btn.view {
+  background-color: #e0f0ff;
+  color: #0056b3;
+}
+
+.btn.view:hover {
+  background-color: #c0e4ff;
+}

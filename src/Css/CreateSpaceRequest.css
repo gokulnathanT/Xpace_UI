@@ -1,0 +1,78 @@
+.spacerequest-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f8f9fd;
+}
+
+.form-section {
+  flex: 1;
+  padding: 60px 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.form-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #1d3557;
+}
+
+.spacerequest-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  background-color: #f7fafc;
+  font-size: 16px;
+}
+
+.spacerequest-form .submit-btn {
+  padding: 10px 30px;
+  margin-top: 10px;
+  display: block;
+  margin: 20px 0px 0px auto;
+  background: #0077ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  width: fit-content;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.spacerequest-form .submit-btn:hover {
+  background: #005fcc;
+}
+
+.image-section {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.85);
+}
+.form-Id-group{
+  display: flex;
+  gap: 40px;
+
+}
+.form-group input{
+  width: 400px;
+}

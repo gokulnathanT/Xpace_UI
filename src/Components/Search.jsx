@@ -4,6 +4,7 @@ const SearchInput = () => {
   return (
     <div>
     <input
+      
       style={{
         padding: "10px",
         paddingLeft: "35px",

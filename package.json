@@ -24,9 +24,12 @@
     "@tailwindcss/vite": "^4.0.15",
     "@toolpad/core": "^0.13.0",
     "axios": "^1.8.4",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.487.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.1",
+    "recharts": "^2.15.3",
     "styled-components": "^6.1.16"
   },
   "devDependencies": {

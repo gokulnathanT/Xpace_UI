@@ -1,1 +1,9 @@
 @import "tailwindcss";
+/* global.css */
+.form-input {
+  @apply w-full px-4 py-3 border border-gray-300 rounded bg-gray-50 focus:outline-none focus:border-[#362744];
+}
+
+.submit-btn {
+  @apply w-full py-3 bg-black text-white rounded font-medium hover:bg-gray-900 transition;
+}

@@ -1,0 +1,108 @@
+.auth-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.auth-left {
+  flex: 1;
+  background-color: #362744;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.truck-image {
+  width: 45rem;
+  height: auto;
+}
+
+.auth-right {
+  flex: 1;
+  max-width: 36rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.auth-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  margin-bottom: 3rem;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 24rem;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 0.75rem 0;
+  text-align: center;
+  font-weight: 500;
+  color: #9ca3af; /* gray-400 */
+  border-bottom: 2px solid transparent;
+  background: none;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  color: black;
+  border-color: #362744;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.form-input:focus {
+  border-color: #362744;
+}
+
+.submit-btn {
+  background-color: #362744;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #4a3561;
+}
+
+.forgot-text {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-top: 0.5rem;
+}
+
+.forgot-link {
+  color: #362744;
+  text-decoration: none;
+}

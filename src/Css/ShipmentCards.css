@@ -1,0 +1,118 @@
+.shipment-list-card {
+  background-color:#e9efef;
+  color: #000000;
+  border-radius: 18px;
+  padding: 20px;
+  margin: 16px 0;
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.15);
+  border: 2px solid #3730a3;
+  transition: 0.3s ease;
+  width: 100%;
+  max-width: 450px;
+}
+
+.shipment-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3730a3;
+  margin-bottom: 12px;
+}
+
+.shipment-tags {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tag {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 4px;
+  height: 30px;
+  border-radius: 5px;
+  color: #3730a3;
+  border: 2px solid #e0e7ff;
+  text-transform: uppercase;
+}
+
+.tag.blue {
+  background-color: #e0e7ff;
+  color: #3730a3;
+
+}
+
+
+.progress-bar {
+  background-color: #555;
+  border-radius: 10px;
+  height: 6px;
+  margin: 10px 0 16px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4ffa7a;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+.shipment-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.shipment-locations {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.location .label {
+  font-size: 0.75rem;
+  color: #249cb7;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.location{
+  text-align: left;
+}
+.location .text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-bottom: 2px;
+  color: #3730a3;
+}
+
+.shipment-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.shipment-actions button {
+  
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  width: 90px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.shipment-actions #cancel {
+background-color: #ecbdb9;
+color: #a33930;
+}
+.shipment-actions #delivered {
+  background-color: #a3d6c3;
+  color: #2f926c;
+}

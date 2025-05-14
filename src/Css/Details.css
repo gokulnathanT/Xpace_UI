@@ -1,0 +1,213 @@
+.details-container {
+  position: relative;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.details-card {
+  position: relative;
+  background: #f1f4ff;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 12px;  opacity: 0.8;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-left: 20px solid #3730a3;
+  z-index: 1;
+}
+.capacity-info{
+  display: flex;
+  justify-content: space-between;
+}
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3730a3;
+  color: white;
+
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
+.status-badge {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status-badge.scheduled {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.status-badge.in_transit {
+  background: #bfdbfe;
+  color: #1e40af;
+}
+
+.status-badge.completed {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.info-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.label {
+  font-size: 12px;
+  color: #888;
+}
+
+.info-right .icon-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.route-section {
+  
+  padding: 20px;
+}
+
+.route-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location {
+  text-align: center;
+}
+
+.pin {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 0 auto 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.pin.start {
+  background-color: #065f46;
+}
+
+.pin.end {
+  background-color: #7f1d1d;
+}
+
+.route-line {
+  flex-grow: 1;
+  height: 3px;
+  background: #999;
+  margin: 0 20px;
+}
+
+.capacity-section {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.icon-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #3730a3;
+}
+
+.progress-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #555;
+}
+
+.additional-info {
+  padding: 20px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shipment-btn {
+  background-color: #3730a3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.shipment-buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  
+}
+.shipment-creation-btn {
+  background-color: #3730a3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.spacerequest-creation-btn{
+  background-color: #3730a3;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
